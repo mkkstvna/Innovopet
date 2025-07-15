@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>InnovoPet</title>
+  <meta name="title" content="Grilli - Amazing & Delicious Food">
+  <meta name="description" content="This is a Restaurant html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+ <link rel="shortcut icon" href="./logo.png" type="image/png">
+
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">InnovoPet</p>
+  </div>
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          г. Тараз, микрорайон Кызылабад, ул. Аякоз, 23
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Понедельник - Пятница : 9.00 - 18.00 </span>
+      </div>
+
+      <a href="tel:+11234567890" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+7 775 540 1403</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:booking@restaurant.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">saran_es@mail.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header >
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="160" height="50" alt="Grilli - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" width="160" height="50" alt="Grilli - Home">
+        </a>
+
+         <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">О компании</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Продукция</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Контакты</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Технические характеристики</span>
+            </a>
+          </li>
+
+
+        </ul>
+
+        <div class="text-center">
+          
+
+          <address class="body-4">
+            г. Тараз, микрорайон Кызылабад, <br>
+            ул. Аякоз, 23
+          </address>
+
+          <p class="body-4 navbar-text">Понедельник - Пятница: <br> 8.00 - 18.00</p>
+
+          <a href="mailto:booking@grilli.com" class="body-4 sidebar-link">saran_es@mail.com</a>
+
+          <div class="separator"></div>
+
+         
+
+          <a href="tel:+77755401403" class="body-1 contact-number hover-underline">
+            +7 775 540 1403
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="#" class="btn btn-secondary">
+        <span class="text text-1">InnovoPet</span>
+
+        <span class="text text-2" aria-hidden="true">InnovoPet</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/photo2.png" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+           
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Прочность, рождённая природой
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+             Ощутите надёжность шпагата, созданного для каждого сезона.
+            </p>
+
+            <a href="https://wa.me/77755401403" target="_blank" class="btn btn-primary slider-reveal">
+  <span class="text text-1">Заказать</span>
+  <span class="text text-2" aria-hidden="true">Заказать</span>
+</a>
+
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/photo1.jpeg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+
+            <h1 class="display-1 hero-title slider-reveal">
+             Уникальная прочность. <br>
+             Естественная надёжность.
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+             Разработан, чтобы выдерживать любые условия и помогать вам в работе.
+            </p>
+
+            <a href="https://wa.me/77755401403" target="_blank" class="btn btn-primary slider-reveal">
+  <span class="text text-1">Заказать</span>
+  <span class="text text-2" aria-hidden="true">Заказать</span>
+</a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <a href="https://wa.me/77755401403" target="_blank" class="hero-btn has-after">
+  <img src="./assets/images/whatsapp.webp" width="55" height="55" alt="Написать в WhatsApp">
+</a>
+
+
+      </section>
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">О нас</p>
+
+            <h2 class="headline-1 section-title">Надежность в каждой нити</h2>
+
+            <p class="section-text">
+              Наш шпагат широко используется в сельском хозяйстве. Полипропиленовые и полиолефиновые шпагаты применяются для автоматической обвязки сена, соломы и сенажа на пресс-подборщиках различных моделей.
+
+Изготовленные из современных полимеров шпагаты отличаются высокой прочностью, мягкостью на ощупь и отличной способностью завязываться в узлы.
+
+Производство сеновязального шпагата осуществляется на современных линиях с применением европейского оборудования Oerlikon Barmag.
+
+            </p>
+
+            <div class="contact-label">Оформить заказ по звонку</div>
+
+            <a href="tel:+804001234567" class="body-1 contact-number hover-underline">+7 (775) 540 14 03</a>
+
+        
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/upakovka.jpeg" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./assets/images/product.jpeg" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+
+    
+
+          </figure>
+
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SPECIAL DISH
+      -->
+
+      <section class="special-dish text-center" aria-labelledby="dish-label">
+
+        <div class="special-dish-banner">
+          <img src="./assets/images/product.jpeg" width="940" height="900" loading="lazy" alt="special dish"
+            class="img-cover">
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            <img src="./assets/images/badge.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+
+            <p class="section-subtitle label-2">Номер один на рынке</p>
+
+            <h2 class="headline-1 section-title">Сеновязальный шпагат</h2>
+
+            <p class="section-text">
+             <strong>УНИКАЛЬНЫЕ ПРЕИМУЩЕСТВА:</strong> <br>
+             <br>
+— Исключительно высокая разрывная прочность, включая прочность в завязанном узле<br>
+<br>
+— 100% надежность фиксации — узлы сохраняют устойчивость и не развязываются при хранении и перевозке<br>
+<br>
+— Гарантированный вес и длина каждой бобины<br>
+<br>
+Используя шпагат с плотностью 2000 ТЕКС, вы экономите до 15%, так как на упаковку сена требуется в 1,2 раза меньше нити.
+            </p>
+
+            <div class="wrapper">
+              <del class="del body-3">1 kg</del>
+
+              <span class="span body-1">1000 tg</span>
+            </div>
+
+      
+
+          </div>
+        </div>
+
+       
+      </section>
+
+
+
+
+<!-- HELP -->
+<section class="specs-section">
+  <h2>Физико-механические показатели</h2>
+  <div class="specs-grid">
+    <div class="spec-card">
+      <h3>Линейная плотность</h3>
+      <p>2000 ± 4% текс</p>
+    </div>
+    <div class="spec-card">
+      <h3>Разрывная нагрузка</h3>
+      <p>900 Н (91,7 кгс)</p>
+    </div>
+    <div class="spec-card">
+      <h3>Удлинение</h3>
+      <p>не более 20%</p>
+    </div>
+    <div class="spec-card">
+      <h3>Количество п.м. в 1 кг</h3>
+      <p>500</p>
+    </div>
+    <div class="spec-card">
+      <h3>Длина в бобине</h3>
+      <p>2500 м</p>
+    </div>
+    <div class="spec-card">
+      <h3>Масса бобины</h3>
+      <p>5 кг</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- #ZAYAVKA -->
+ <section class="reservation">
+  <div class="container">
+    <div class="form reservation-form bg-black-10" style="padding:40px 20px 30px; border-radius:12px;">
+
+      <h2 class="headline-1 text-center">Оставьте заявку</h2>
+
+      <iframe
+        class="google-form"
+        src="https://docs.google.com/forms/d/e/1FAIpQLSc_Qn6_0jzuxMFDTYpN2Cjz-YBHRmP4ciQK6kMCKLuT51LNBA/viewform?embedded=true"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0">
+        Загрузка…
+      </iframe>
+    </div>
+  </div>
+</section>
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/back.jpg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="160" height="50" loading="lazy" alt="grilli home">
+          </a>
+
+          <address class="body-4">
+            г. Тараз, микрорайон Кызылабад, ул. Аякоз, 23
+          </address>
+
+          <a href="mailto:booking@grilli.com" class="body-4 contact-link">saran_es@mail.com</a>
+
+          <a href="tel:+88123123456" class="body-4 contact-link">Для заказа : +7 775 540 1403</a>
+
+          <p class="body-4">
+            Понедельник - Пятница : 9.00 - 18.00
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <p class="title-1">Практичность & Красота</p>
+
+          
+         
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Home</a>
+          </li>
+
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">About Us</a>
+          </li>
+
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+         
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">WhatsApp</a>
+          </li>
+
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+          </li>
+
+          <li>
+  <a href="https://maps.app.goo.gl/eNkDSDo2zfP2b3WK8" target="_blank" class="label-2 footer-link hover-underline">
+    Google Map
+  </a>
+</li>
+
+
+        </ul>
+
+      </div>
+
+  
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
